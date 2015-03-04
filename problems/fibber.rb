@@ -1,0 +1,2 @@
+class Fibber
+end
