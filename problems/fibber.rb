@@ -4,7 +4,7 @@ class Fibber
     fib = 1
     next_fib = 1
 
-    while next_fib <= target do
+    while next_fib <= target
       fibs << next_fib
       next_fib = fib + next_fib
       fib = fibs.last
@@ -15,14 +15,12 @@ class Fibber
 
   def self.sum_evens(target)
     targets = generate(target)
-    total = targets.inject(0) do |sum, x|
-      if x % 2 == 0 
+    targets.inject(0) do |sum, x|
+      if x.even?
         sum + x
       else
-        sum 
+        sum
       end
     end
-
-    total
   end
 end
