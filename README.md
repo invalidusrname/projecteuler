@@ -1,4 +1,4 @@
 # projecteuler
 Project Euler in Ruby
 
-[![Build Status](https://travis-ci.org/charlotte-ruby/projecteuler.svg?branch=master)](https://travis-ci.org/charlotte-ruby/projecteuler)
+[![ruby](https://github.com/invalidusrname/projecteuler/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/invalidusrname/projecteuler/actions/workflows/main.yml)
